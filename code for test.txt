@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Wash</title>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Car Wash</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#locations">Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sales">Sales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact/contact.html">Contact</a>
+            <a href="contact.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+  </a>
+</nav>
+  </header>
+  <main class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Welcome to our car wash</h5>
+            <p class="card-text">We are a full-service car wash that offers a wide range of services to keep your car looking its best. From basic car washes to full detailing, we have everything you need to keep your car in top condition.<br><br>OUR SERVICES:<br>Full Service Handwash
+                <br>Windows Cleaned
+                <br>Interior Vacuumed
+                <br>Dash & Door Jambs Wiped
+                <br>Handwash
+                <br>Wheels Express Handwash
+                <br>Splash Tire Shine
+                <br>Splash Wheel Brite
+                <br>Undercarriage Wash
+                <br>Windows Cleaned
+                <br>Interior Vacuumed
+                <br>Dash & Door Jambs Wiped
+                <br>Full Service Handwash
+                </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="mon-tab" data-toggle="tab" href="#mon" role="tab" aria-controls="mon" aria-selected="true">Monday</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="tue-tab" data-toggle="tab" href="#tue" role="tab" aria-controls="tue" aria-selected="false">Tuesday</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="wed-tab" data-toggle="tab" href="#wed" role="tab" aria-controls="wed" aria-selected="false">Wednesday</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="thu-tab" data-toggle="tab" href="#thu" role="tab" aria-controls="thu" aria-selected="false">Thursday</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="fri-tab" data-toggle="tab" href="#fri" role="tab" aria-controls="fri" aria-selected="false">Friday</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="sat-tab" data-toggle="tab" href="#sat" role="tab" aria-controls="sat" aria-selected="false">Saturday</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="sun-tab" data-toggle="tab" href="#sun" role="tab" aria-controls="sun" aria-selected="false">Sunday</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="mon" role="tabpanel" aria-labelledby="mon-tab">Open from 8am to 6pm</div>
+          <div class="tab-pane fade" id="tue" role="tabpanel" aria-labelledby="tue-tab">Open from 8am to 6pm</div>
+          <div class="tab-pane fade" id="wed" role="tabpanel" aria-labelledby="wed-tab">Open from 8am to 6pm</div>
+          <div class="tab-pane fade" id="thu" role="tabpanel" aria-labelledby="thu-tab">Open from 8am to 6pm</div>
+          <div class="tab-pane fade" id="fri" role="tabpanel" aria-labelledby="fri-tab">Open from 8am to 6pm</div>
+          <div class="tab-pane fade" id="sat" role="tabpanel" aria-labelledby="sat-tab">Open from 10am to 5pm</div>
+          <div class="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="sun-tab">Open from 10am to 5pm</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Location</h5>
+            <p class="card-text">Lublin ul. Karwaszowa 16</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11657.246596880767!2d22.5690837!3d51.246629!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9f9c7a0d3a3c8ab3!2sLublin%2C%20ul.%20Karwaszowa%2016!5e0!3m2!1spl!2spl!4v1610931370429!5m2!1spl!2spl" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="/damian/carwash2.jpeg" width="300" height="300" alt="carwash2">
+  </a>
+</nav>
+    </div>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="/damian/carwash1.jpg" width="300" height="300" alt="carwash1">
+        </a>
+      </nav>
+    
+    
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
